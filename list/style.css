@@ -1,0 +1,85 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(216, 168, 120, 0.717);
+    margin: 0;
+    padding: 15px;
+    height: 100vh;
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:black;
+}
+
+
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+#newItem {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+button {
+    padding: 5px 10px;
+    border: 1px solid rgb(196, 21, 21);
+    border-radius: 4px;
+}
+
+
+#addButton {
+    background-color:green;
+    color: rgb(9, 9, 13);
+}
+
+
+#button-Container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#clearList, #checkoutButton {
+    background-color: #f1f1f1;
+}
+
+#clearList {
+    color: red;
+}
+
+
+#shoppingList {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    max-width: 300px;
+}
+
+#shoppingList li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color:#f1f1f1;
+}
+
+
+.purchased {
+    text-decoration: brown;
+    background-color: #d3d3d3;
+}

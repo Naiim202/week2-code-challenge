@@ -1,0 +1,41 @@
+Shopping List Webpage
+This project is a simple, interactive shopping list webpage where users can add items, mark them as purchased, and clear the list. The project includes basic DOM manipulation, event handling, and optional local storage persistence for the shopping list items.
+
+Features
+Add Items: Users can add items to the shopping list using an input field and an "Add" button.
+Mark Purchased: Users can mark items as purchased, which will visually update the item (e.g., strikethrough text, different background color).
+Clear List: Users can clear all items from the list using a "Clear List" button.
+Edit Items (Bonus): Users can edit existing list items.
+Local Storage Persistence (Bonus): The shopping list is saved in the browser's local storage, so the list persists even after the page is reloaded.
+Getting Started
+Follow these steps to set up the project:
+
+Clone the Repository
+
+bash
+Copy code
+git clone https://github.com/yourusername/shopping-list.git
+cd shopping-list
+Open the HTML File
+
+Open index.html in your preferred web browser to see the shopping list webpage in action.
+
+File Structure
+index.html: The main HTML file containing the structure of the webpage.
+style.css: The CSS file containing the styles for the webpage.
+script.js: The JavaScript file containing the logic for adding items, marking items as purchased, clearing the list, editing items, and persisting the list in local storage.
+Usage
+Adding Items: Enter the name of the item in the input field and click the "Add" button. The item will be added to the shopping list.
+Marking Items as Purchased: Click on an item in the shopping list to mark it as purchased. The item's appearance will change to indicate it has been purchased.
+Clearing the List: Click the "Clear List" button to remove all items from the shopping list.
+Editing Items (Bonus): Double-click on an item to edit its name.
+Persistence (Bonus): The shopping list is saved in the browser's local storage and will be reloaded when the page is refreshed.
+Customization
+You can customize the styles and behavior of the shopping list by modifying the style.css and script.js files. For example, you can change the appearance of purchased items or add additional features such as item categories.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements
+This project was inspired by the need for a simple, interactive shopping list application that can be used in a web browser.
+
